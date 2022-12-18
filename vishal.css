@@ -1,0 +1,253 @@
+.main {
+  height: 100vh;
+  width: 100%;
+  background-image: url(img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+.navbar-brand a {
+  font-size: 50px;
+}
+.navbar a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  color: #37423b;
+  white-space: normal;
+  right: 20px;
+}
+#logo {
+  font-size: 58px;
+}
+.content {
+  font-family: Montserrat;
+  text-align: center;
+  margin-top: 18%;
+  color: white;
+  position: absolute;
+  left: 28%;
+  top: 11%;
+}
+.content h1 {
+  font-size: 70px;
+  text-align: center;
+  font-weight: 800;
+}
+.container-fluid ul li a {
+  color: white;
+}
+.container-fluid h1 a {
+  font-size: 25px;
+}
+
+.spam {
+  color: #399152;
+}
+.content a {
+  position: absolute;
+  text-decoration: none;
+  box-sizing: 20px;
+  background-color: #399152;
+  color: white;
+  text-align: center;
+  padding: 10px 18px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 40px;
+  left: 45%;
+}
+.about img {
+  height: 400px;
+  width: 600px;
+  margin: 30px 10px 30px 20px;
+}
+.about h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+.about ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about ul li {
+  padding-bottom: 10px;
+}
+
+.about  ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #5fcf80;
+}
+
+#navbarNav {
+  /* text-align: center; */
+  align-items: right;
+}
+.row {
+  margin: 40px;
+}
+.count {
+  width: 100%;
+
+  background-color: #dadada6d;
+}
+
+.col-lg-4 h2 {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 30px;
+  color: #5fcf80;
+  cursor: pointer;
+}
+.col-lg-4 h2:hover {
+  color: #37423b;
+}
+.col-lg-4 p {
+  font-family: Poppins;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(61, 61, 61);
+}
+.course {
+  padding: 7%;
+}
+.course h2 {
+  font-family: Montserrat;
+  color: #37423b;
+  font-weight: 700;
+  margin-left: 5%;
+}
+.card-title {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+}
+.card-title:hover {
+  color: #5fcf80;
+}
+
+.card:hover {
+  background-color: #dadada6d;
+}
+.card-body a {
+  text-decoration: none;
+  box-sizing: 20px;
+  background-color: #399152;
+  color: white;
+  text-align: center;
+  padding: 10px 18px;
+  border-radius: 5px;
+  text-align: center;
+}
+.card-body a:hover {
+  background-color: #37423b;
+}
+.card-body p {
+  font-size: 25px;
+}
+.trainer {
+  padding: 7%;
+  background-color: #dadada6d;
+}
+.trainer h2 {
+  color: #37423b;
+  margin-left: 5%;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+.trainer-card-body h4 {
+  text-align: center;
+  padding-top: 2rem;
+  color: rgb(91, 91, 91);
+  font-family: Montserrat;
+}
+.trainer-card-body p {
+  font-size: 15px;
+}
+.icon {
+  text-align: center;
+}
+a.social:link,
+a.social:visited {
+  text-decoration: none;
+  color: green;
+}
+.icon i {
+  margin-left: 15px;
+  padding-top: 20px;
+  font-size: 27px;
+  color: rgb(91, 91, 91);
+}
+.icon i:hover {
+  color: #5fcf80;
+}
+.login {
+  padding: 7%;
+  position: relative;
+}
+.login i {
+  font-size: 100px;
+  padding: 3rem;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 30%;
+  cursor: pointer;
+}
+.login h5 {
+  margin-left: 32%;
+  font-family: Poppins;
+  margin-top: 30px;
+}
+.login i:hover {
+  background-color: #37423b;
+  color: #5fcf80;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  transform: scale3d(1.2, 1.2, 1.2);
+}
+.login h2 {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  color: #37423b;
+}
+.footer-top {
+  background-color: #dadada6d;
+  padding: 3rem;
+  font-family: 'Kanit', sans-serif;
+  list-style: none;
+  color: #37423b;
+}
+.footer-top ul li {
+  list-style: none;
+}
+.footer-top i {
+  color: #5fcf80;
+}
+a.foot:link,
+a.foot:visited {
+  text-decoration: none;
+  color: rgb(94, 93, 93);
+}
+/*   About page */
+.header{
+  background-color: #dadada6d;
+  padding: 2rem;
+  color: #37423b;
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 200;
+}
